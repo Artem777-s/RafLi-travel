@@ -1,0 +1,9 @@
+
+body{font-family:Arial,Helvetica,sans-serif;background:#f8f4ef;color:#3e2f1c;margin:0;padding:0}
+header{background:linear-gradient(135deg,#d2b48c,#f4e3c3);padding:20px;text-align:center}
+.logo{width:90px}
+.container{max-width:1000px;margin:20px auto;padding:0 15px}
+.btn{display:inline-block;padding:10px 18px;background:#ff7b00;color:#fff;border-radius:25px;text-decoration:none;margin:5px}
+.catalog{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.product{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.08);width:260px;text-align:left}
+.product img{width:100%;border-radius:8px}

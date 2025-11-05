@@ -1,0 +1,6 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Питомец</title><link rel="stylesheet" href="/static/style.css"></head><body>
+<header><h1>{{ pet.name }}</h1></header><main class="container">
+<p><strong>Порода:</strong> {{ pet.breed }}</p>
+<p><strong>Контакты:</strong> {{ pet.contacts }}</p>
+<div class="qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data={{ request.build_absolute_uri }}" alt="QR"></div>
+</main></body></html>

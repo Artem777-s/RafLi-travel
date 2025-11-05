@@ -1,0 +1,13 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Регистрация</title><link rel="stylesheet" href="/static/style.css"></head><body>
+<header><h1>Регистрация / Вход</h1></header><main class="container">
+<form method="post">{% csrf_token %}
+ <h2>Зарегистрироваться</h2>
+ <input type="text" name="username" placeholder="Логин"><input type="password" name="password1" placeholder="Пароль"><input type="password" name="password2" placeholder="Пароль ещё">
+ <button class="btn" name="register">Зарегистрироваться</button>
+</form>
+<form method="post">{% csrf_token %}
+ <h2>Вход</h2>
+ <input type="text" name="username" placeholder="Логин"><input type="password" name="password" placeholder="Пароль">
+ <button class="btn" name="login">Войти</button>
+</form>
+</main></body></html>
